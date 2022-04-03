@@ -1,0 +1,25 @@
+.heading{
+width: 100%;
+margin-top: 0px;
+font-size: 25px;
+box-shadow: 30px 30px 30px black;
+}
+
+canvas{
+
+animation-name: Shikhar;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes Shikhar {
+    from{
+        box-shadow: 2px 2px 40px red;
+    }
+    to{
+        box-shadow: 2px 2px 40px yellow
+        ;
+    }
+    
+}
